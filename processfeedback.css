@@ -1,0 +1,14 @@
+body {
+ background-image: url('fd.jpg');
+ background-position: center;
+}
+input[type=submit] {
+  height: 50px;
+  background:blue;
+  border: 4;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+  };

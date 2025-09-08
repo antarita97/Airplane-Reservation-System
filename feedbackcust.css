@@ -1,0 +1,67 @@
+body{
+background-image: linear-gradient(pink,skyblue,violet,skyblue,pink,violet,skyblue,pink,skyblue);
+
+}
+h1{
+  padding: 30px;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  }
+   label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 8px;
+  font-size: 22px;
+  font-weight: bold;
+   color: black;
+}
+p{
+ font-family: 'Nanum Gothic';
+  padding-bottom: 8px;
+  font-size: 22px;
+  font-weight: bold;
+   color:black;
+}
+
+h2{
+ font-family: 'Nanum Gothic';
+  padding-bottom: 8px;
+  font-size: 35px;
+  font-weight: bold;
+   color: black;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 40%;
+  padding: 6px;
+}
+
+div.elem-group.inlined input {
+  width: 65%;
+  display: inline-block;
+}
+
+textarea {
+  height: 80px;
+}
+
+ input[type=submit] {
+  background-color: violet;
+  font-weight: bold;
+  border: none;
+  color: black;
+  font-size: 25px;
+  width: 20%;
+  padding: 6px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}

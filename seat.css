@@ -1,0 +1,67 @@
+/* (A) GENERAL STYLES */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('sky.jpg');
+  margin: 0;
+}
+
+/* (B) LAYOUT */
+#layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+.seat {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  width: 40px;
+}
+
+.taken {
+  background-color: #f5c6cb;
+  cursor: not-allowed;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* (C) LEGEND */
+#legend {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.txt {
+  margin-left: 10px;
+}
+
+/* (D) BUTTON */
+#go {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#go:hover {
+  background-color: #388e3c;
+}

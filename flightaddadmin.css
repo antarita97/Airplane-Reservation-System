@@ -1,0 +1,57 @@
+body {
+  background-image: url('addflight.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: black;
+  font-weight: 15px;
+
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 15px;
+}
+
+div.elem-group.inlined input {
+  width: 100%;
+  display: inline-block;
+}
+
+textarea {
+  height: 60px;
+}
+
+ input[type=submit] {
+  background-color: blue;
+  border: none;
+   width: 60%;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+body {
+  background-image: url('fltupdt.png');
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+h1{
+ 
+  text-align: center;
+  background-color: #b80000;
+  color: white;
+  font-family: 'Nanum Gothic';
+  font-size: 40px;
+ font-weight: bold;
+  }
+
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+h2 {
+  font-family: 'Nanum Gothic';
+  background-color:#b80000 ;
+  color: white;
+  width: 90%;
+  padding-bottom: 8px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 90%;
+  padding: 6px;
+}
+
+div.elem-group.inlined input {
+  width: 65%;
+  display: inline-block;
+}
+
+textarea {
+  height: 60px;
+}
+
+ input[type=submit] {
+background-color: #b80000;
+  border: none;
+  color: white;
+  padding: 6px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+   width: 60%;
+}

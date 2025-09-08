@@ -1,0 +1,17 @@
+body{
+background-image: url('ticket.jpg');
+background-attachment: fixed;
+}
+input[type=submit] {
+  background-color: blue;
+  width:30%;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}

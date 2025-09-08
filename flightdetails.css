@@ -1,0 +1,43 @@
+body {
+  background-image: url('seat.jpeg');
+}
+
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 10%;
+  padding: 10px
+}
+
+table {
+  color:black;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+table,th, td {
+  text-align: left;
+  padding: 8px;
+  border: 2px solid;
+}
+th {
+ 
+  color:black;
+  font-family:Lucida Console;
+
+   font-size: 15px;
+}
+};
+}
+

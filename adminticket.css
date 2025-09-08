@@ -1,0 +1,55 @@
+body {
+  background-image: url('photo.jpg');
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+  font-weight: 900;
+}
+table, th, td {
+  border: 1px solid;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+
+th {
+ 
+  color: white;
+}
+

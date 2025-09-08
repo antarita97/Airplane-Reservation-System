@@ -1,0 +1,17 @@
+body {
+ background-image: url('4save.jpg');
+ background-position: center;
+}
+input[type=submit] {
+  background-color: #F9A602;
+  font-weight: bold;
+  border: none;
+  color: black;
+  font-size: 30px;
+  width: 20%;
+  padding: 6px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+

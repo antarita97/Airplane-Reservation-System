@@ -1,0 +1,65 @@
+body {
+  background-image: url('display.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p{
+font-family: 'Nanum Gothic';
+ color: black; 
+font-size: 20px;
+font-weight:bold;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight:bold;
+   color: black;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: white;
+  font-family: 'Nanum Gothic';
+  width: 10 %;
+  padding: 10px;
+  font-weight:bold;
+}
+
+table {
+ color: black;
+ border: black;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+table,th, td {
+  color: black;
+  text-align: left;
+  padding: 8px;
+  border: 2px solid;
+}
+th {
+  color: black;
+  font-family:Lucida Console;
+
+   font-size: 15px;
+}
+
+input[type=submit]{
+  
+  color: black;
+}
+input[type=text]{
+  width: 100 %;
+  
+}
+
+}
+
