@@ -1,0 +1,74 @@
+body {
+  background-image: url('flightupdate.jpg');
+  background-attachment: fixed;
+}
+
+p{
+font-family: 'Nanum Gothic';
+ color: black; 
+font-size: 20px;
+font-weight:bold;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight:bold;
+   color: black;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: black;
+  font-family: 'Nanum Gothic';
+  width: 10%;
+  padding: 10px;
+  font-weight:bold;
+}
+
+table {
+ color: black;
+ border: black;
+  font-size: 20px;
+  font-weight:bold;
+
+}
+
+table,th, td {
+  color: black;
+  text-align: left;
+  padding: 6px;
+  border: 2px solid;
+  font-weight:bold;
+
+}
+th {
+  color: black;
+  font-family:Lucida Console;
+  font-size: 15px;
+  font-weight:bold;
+
+}
+input[type=submit]{
+  
+  color: black;
+   font-size: 12px;
+}
+
+
+
+ input[type=submit] {
+  height: 50px;
+  background:blue;
+  border: 4;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+  };

@@ -1,0 +1,52 @@
+body {
+  background-image: url('ai.jpg');
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  font-family: 'Nanum Gothic';
+  padding-bottom: 6px;
+  font-size: 20px;
+  color: black;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Nanum Gothic';
+  width: 60%;
+  padding: 6px;
+}
+
+div.elem-group.inlined input {
+  width: 65%;
+  display: inline-block;
+}
+
+textarea {
+  height: 60px;
+}
+
+ input[type=submit] {
+  background-color: #add8e6;
+  border: none;
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
